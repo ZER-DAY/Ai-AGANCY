@@ -39,8 +39,8 @@ const ProjectCard = ({
       </div>
 
       <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
-        <p className="text-white text-sm font-medium">{project.company}</p>
-        <p className="text-white/80 text-xs">{project.location}</p>
+        <p className="text-white text-xl font-medium">{project.company}</p>
+        <p className="text-white/80 text-xl">{project.location}</p>
       </div>
     </motion.div>
   );

@@ -53,7 +53,7 @@ const ProjectModal = ({ project }: { project: Project }) => {
                 >
                   {project.title}
                 </DialogTitle>
-                <span className="block text-muted-foreground text-sm mt-1 text-left">
+                <span className="block text-muted-foreground text-sm mt-1 text-left h2-style">
                   {project.location}
                 </span>
               </div>
@@ -77,6 +77,12 @@ const ProjectModal = ({ project }: { project: Project }) => {
                 ))}
               </ul>
             </DialogHeader>
+          </div>
+          {/* أزرار في أسفل الكارت */}
+          <div className="flex justify-end mt-6 gap-4">
+            <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+              تعرف على المزيد
+            </button>
           </div>
         </DialogContent>
       </Dialog>
