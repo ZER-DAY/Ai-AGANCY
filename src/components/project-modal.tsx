@@ -17,7 +17,7 @@ import { blurhashToBase64 } from "blurhash-base64";
 const ProjectModal = ({ project }: { project: Project }) => {
   return (
     <div dir="rtl">
-      <Dialog >
+      <Dialog>
         <DialogTrigger>
           <Image
             src={project.image}
@@ -47,7 +47,10 @@ const ProjectModal = ({ project }: { project: Project }) => {
 
             <DialogHeader className="flex-1 space-y-4">
               <div>
-                <DialogTitle className="text-2xl md:text-3xl lg:text-4xl text-left font-bold tracking-tighter bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+                <DialogTitle
+                  className="text-2xl md:text-3xl lg:text-4xl text-right font-bold tracking-tighter bg-gradient-to-r text-amber-300"
+                  dir="rtl"
+                >
                   {project.title}
                 </DialogTitle>
                 <span className="block text-muted-foreground text-sm mt-1 text-left">
@@ -55,17 +58,20 @@ const ProjectModal = ({ project }: { project: Project }) => {
                 </span>
               </div>
 
-              <DialogDescription className="text-slate-950 text-base md:text-lg leading-relaxed text-left">
+              <DialogDescription
+                className="text-white text-base md:text-lg leading-relaxed text-right"
+                dir="rtl"
+              >
                 {project.description}
               </DialogDescription>
 
-              <ul className="list-inside text-slate-950 space-y-3 text-left">
+              <ul className="list-inside text-white space-y-3 ">
                 {project.features.map((feature) => (
                   <li
                     key={feature}
                     className="flex items-start md:items-center gap-2 text-sm md:text-base"
                   >
-                    <BadgeCheck className="w-4 h-4 flex-shrink-0 text-yellow-500" />
+                    <BadgeCheck className="w-4 h-4 flex-shrink-0 text-amber-300" />
                     <span>{feature}</span>
                   </li>
                 ))}

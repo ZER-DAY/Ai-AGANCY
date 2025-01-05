@@ -43,21 +43,9 @@ const ProjectsGrid = () => {
           {/* Grid for projects */}
           <motion.div
             variants={containerVariants}
-            className="grid grid-cols-3 gap-6 px-4"
+            className="grid gap-6 px-4 md:grid-cols-3"
           >
-            {/* Top Row */}
-            {projects.slice(0, 3).map((project) => (
-              <motion.div key={project.id} variants={itemVariants}>
-                <ProjectCard
-                  project={project}
-                  hoveredId={hoveredId}
-                  setHoveredId={setHoveredId}
-                />
-              </motion.div>
-            ))}
-
-            {/* Bottom Row */}
-            {projects.slice(3, 6).map((project) => (
+            {projects.map((project) => (
               <motion.div key={project.id} variants={itemVariants}>
                 <ProjectCard
                   project={project}

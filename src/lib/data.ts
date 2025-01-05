@@ -2,17 +2,17 @@ export const projects = [
   {
     id: 1,
     image: "/1.png",
-    location: "Los Angeles, CA",
+    location: "",
     company: "وكالة تيك توك الأصيل",
-    title: "The Horizon Retreat",
+    title: "وكالة تيك توك الأصيل",
     description:
-      "وكالة متخصصة في التسويق وإدارة عمليات استكشاف وتطوير مهارات صُنّاعة المحتوى. نحن رواد تدريب صُنَّاع المحتوى في منطقة MENA، بشراكتنا الرسمية مع TikTok. نسعى لتطوير مهاراتك وتحقيق النجاح المنشود على المنصة.",
+      "وكالة الأصيل، رائدة في تدريب صُنّاع المحتوى في منطقة الشرق الأوسط وشمال إفريقيا منذ خمس سنوات، تعمل على تمكين الشباب وتعزيز إنتاج محتوى إيجابي يعكس القيم الاجتماعية والثقافية. نسعى لبناء مجتمعات واعية رقميًا قادرة على التعبير عن الأفكار والمبادرات الهادفة بفعالية وإبداع.",
     features: [
-      "Open-concept living and dining area with vaulted ceilings",
-      "Three spacious bedrooms, including a luxurious master suite",
-      "Floor-to-ceiling windows with energy-efficient glass",
-      "Wrap-around deck for outdoor entertaining",
-      "Smart home integration for lighting, security, and climate control",
+      "شراكتنا مع تيك توك: نقدم ميزات وفرص حصرية للمتدربين.",
+      "توسيع الخدمات: نجذب المزيد من المهتمين بصناعة المحتوى.",
+      "بيئة تعليمية: نوفر أدوات مبتكرة لتحقيق الأهداف.",
+      "تعزيز المهارات: نطور المحتوى باستخدام إمكانيات تيك توك.",
+      "مراحل الانضمام: تعرف على الشروط والخدمات بسهولة.",
     ],
   },
   {
